@@ -25,14 +25,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+.map creates a new array and executes the function provided on each element whereeas .forEach doesn't create a new array but still loops through each function and executes if the code is written correctly, 
 
 2. Explain the difference between a callback and a higher order function.
 
+A higher order function is a funciton that takes another function as an argument whereas a call back function is passed to another with the expectation that the other function will call it. 
+
 3. What is closure?
+
+Is is the process of enclosing a function. Telling the function when to stop.
 
 4. Describe the four rules of the 'this' keyword.
 
+It refers to which object your calling. Example if you have an array and use this.elementname, you telling the function to call this element. 
+
 5. Why do we need super() in an extended class?
+
+To access the parent variables and methods. 
 
 ### Task 1 - Project Set up
 
